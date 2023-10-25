@@ -37,6 +37,12 @@ textarea {
     box-sizing: border-box;
 }
 
+textarea {
+    resize: vertical;
+    min-height: 100px;
+    max-height: 200px;
+}
+
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
